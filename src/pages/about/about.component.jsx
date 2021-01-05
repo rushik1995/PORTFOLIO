@@ -21,21 +21,23 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Anand Kumar Jha</strong>
-                <br />A passionate programmer and a Coach, born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack.
+                Hi there! I am <strong>&nbsp;Rushikesh Khandelwal</strong>
+                <br />A passionate programmer and , born and brought up in India. I am <strong> Full Stack Web Developer with React.js, Redux, Express.js, and Node.js as my tech stack.</strong>
                 <br />
-                In 2019, I successfully completed my Engineering with specialization in 'Electronics and Telecommunication'.
+                In 2018, I successfully completed my Engineering specialized in <strong> 'Computer Science'.</strong>
                 <br />
-                Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
+                In 2020, I successfully completed my MBA with specialization in <strong> 'Human Resourse'.</strong>
                 <br />
-                Along with that, I also help people as a COACH on their journey of becoming a professional programmer. 
-                <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                My goal is to help my organisation to grow with my skills and keep my own skills growing with time.
+                <br />I love learning about new technologies, what problems people are solving and How can I use them to build better and scalable products.
+                <br />
+                Along with that, I also like reading books and learning something new daily. 
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
                       <Button className="m-2" variant="outline-primary">
-                        Let's talk
+                        Contact Me
                       </Button>
                     </a>
                   </div>
@@ -46,20 +48,13 @@ const About = () => {
                       </Button>
                     </a>
                   </div>
-                  <div>
-                    <a href="https://github.com/akjha96" target="_blank" rel="noopener noreferrer">
+                  {/* <div>
+                    <a href="https://github.com/rushik1995" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-dark">
                         GitHub
                       </Button>
                     </a>
-                  </div>
-                  <div>
-                    <a href="https://www.linkedin.com/in/anand-kumar-jha-745798a4/" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-info">
-                        LinkedIn
-                      </Button>
-                    </a>
-                  </div>
+                  </div> */ }                 
                 </Col>
               </Row>
             </Col>
